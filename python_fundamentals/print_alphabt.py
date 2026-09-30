@@ -7,4 +7,4 @@ for number in range(97, 123):
     if letter != "q" and letter != "e":
         alphabet += letter
 
-print(alphabet)
+print("{}".format(alphabet))
