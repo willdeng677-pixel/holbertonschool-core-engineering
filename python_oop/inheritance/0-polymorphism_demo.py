@@ -15,8 +15,15 @@ class Cat(Animal):
         return "Meow"
 
 
-dog = Dog()
-cat = Cat()
+animals = [Dog(), Cat(), Dog()]
 
-print(dog.speak())
-print(cat.speak())
+for animal in animals:
+    print(animal.speak())
+
+
+dog = Dog()
+
+print(isinstance(dog, Dog))
+print(isinstance(dog, Animal))
+
+print(issubclass(Dog, Animal))
