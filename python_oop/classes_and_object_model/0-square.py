@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
 
-***Define a square class.***
+"""Defines a Square class."""
 
-class square:
-    ***Represents a quare.***
+
+class Square:
+    """Represents a square."""
     pass
