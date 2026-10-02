@@ -45,19 +45,28 @@ class Square:
         return self.__size * self.__size
 
     def my_print(self):
-        """Print the square using #."""
+        """Print the square."""
         if self.__size == 0:
             print()
             return
 
         for i in range(self.__size):
-            print("#" * self.__size)
+            print(" " * self.__position[0] + "#" * self.__size)
 
     def __str__(self):
         """Return the square as a string."""
         if self.__size == 0:
             return ""
 
-        return "\n".join(
-            "#" * self.__size for i in range(self.__size)
-        )
+        result = ""
+
+        for i in range(self.__position[1]):
+            result += "\n"
+
+        for i in range(self.__size):
+            result += " " * self.__position[0]
+            result += "#" * self.__size
+            if i < self.__size - 1:
+                result += "\n"
+
+        return result
