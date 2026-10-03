@@ -2,7 +2,7 @@
 
 """Defines the Square class."""
 
-Rectangle = __import__('rectangle').Rectangle
+Rectangle = __import__('1-rectangle').Rectangle
 
 
 class Square(Rectangle):
