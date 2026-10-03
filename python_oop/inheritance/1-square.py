@@ -1,5 +1,4 @@
 #!/usr/bin/env python3
-
 """Defines the Square class."""
 
 Rectangle = __import__('1-rectangle').Rectangle
