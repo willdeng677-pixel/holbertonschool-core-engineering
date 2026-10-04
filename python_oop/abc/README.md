@@ -1,0 +1,1 @@
+Abstract animal class
