@@ -1,5 +1,5 @@
 
-#!/usr/bin/python3
+#!/usr/bin/env python3
 """Write a string to a UTF-8 text file."""
 
 
