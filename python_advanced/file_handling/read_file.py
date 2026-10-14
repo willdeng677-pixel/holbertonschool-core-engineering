@@ -1,5 +1,5 @@
 
-#!/usr/bin/python3
+#!/usr/bin/env python3
 """Read and print the contents of a UTF-8 text file."""
 
 
